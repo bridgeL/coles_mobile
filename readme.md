@@ -4,6 +4,8 @@ this script will run forever and collect the data usage every hour
 
 ## how to install
 
+python 3.8 +
+
 ```
 pip install poetry
 poetry install
@@ -16,7 +18,7 @@ poetry install
 2. click your mobile plan
 3. get your server id in the url
 
-https://colesmobile.com.au/pages/dashboard/service/\<server id>
+https://colesmobile.com.au/pages/dashboard/service/ `<server id>`
 
 4. get your site active id
 
