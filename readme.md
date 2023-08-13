@@ -14,20 +14,21 @@ poetry install
 
 ## how to set config
 
-1. open and login https://colesmobile.com.au/pages/dashboard/service/
-2. click your mobile plan
-3. get your serverid in the url
-
-https://colesmobile.com.au/pages/dashboard/service/ `<server id>`
-
-4. create a file named config.ini and put in your username, password, serverid
-
 ```ini
 [coles]
 username = xxxx
 password = xxxx
 serverid = xxxx
 ```
+
+1. open and login https://colesmobile.com.au/pages/dashboard/service/
+2. click your mobile plan
+3. get your serverid in the url
+
+https://colesmobile.com.au/pages/dashboard/service/ `<server id>`
+
+4. rename config_template.ini to config.ini
+5. put in your username, password, serverid
 
 ## how to run
 
