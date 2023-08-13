@@ -16,21 +16,17 @@ poetry install
 
 1. open and login https://colesmobile.com.au/pages/dashboard/service/
 2. click your mobile plan
-3. get your server id in the url
+3. get your serverid in the url
 
 https://colesmobile.com.au/pages/dashboard/service/ `<server id>`
 
-4. get your site active id
+4. create a file named config.ini and put in your username, password, serverid
 
-![pic](./help.png)
-
-5. create a file named config.json and put in your config
-
-```json
-{
-    "SITEACTIVEID": "xxxxx",
-    "SERVERID": "xxxxx"
-}
+```ini
+[coles]
+username = xxxx
+password = xxxx
+serverid = xxxx
 ```
 
 ## how to run
