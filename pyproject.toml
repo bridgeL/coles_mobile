@@ -9,6 +9,8 @@ packages = [{include = "coles_mobile"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 httpx = "^0.24.1"
+loguru = "^0.7.0"
+autopep8 = "^2.0.2"
 
 
 [build-system]

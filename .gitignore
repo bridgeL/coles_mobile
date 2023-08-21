@@ -1,4 +1,5 @@
 .*
 !.gitignore
 data.db
+data.log
 config.ini
