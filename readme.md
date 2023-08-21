@@ -19,6 +19,7 @@ poetry install
 username = xxxx
 password = xxxx
 serverid = xxxx
+gap = xxxx
 ```
 
 1. open and login https://colesmobile.com.au/pages/dashboard/service/
@@ -29,6 +30,7 @@ https://colesmobile.com.au/pages/dashboard/service/ `<server id>`
 
 4. rename config_template.ini to config.ini
 5. put in your username, password, serverid
+6. recommanded gap value is 3600, which means one query per hour
 
 ## how to run
 
